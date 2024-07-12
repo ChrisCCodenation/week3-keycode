@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #b44242; */
+    animation: bodyAnimation 1s infinite;
+}
+
+#welcome-message, #key-info {
+    text-align: center;
+    background-color: #3bc9f5;
+    padding: 20px;
+    border: 1px solid #46e3ee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: welcome-messageAnimation;
+}
+
+#welcome-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#key-info {
+    display: none;
+}
+
+.key-detail {
+    margin: 10px 0;
+    font-size: 18px;
+}
+@keyframes bodyAnimation {
+0%{
+    background-color:red;
+ 
+    }
+5%{
+    background-color: orange;
+}
+10%{
+    background-color: yellow;
+}
+15%{ 
+background-color: green;
+
+}
+20%{
+    background-color:blue;
+    
+}
+25%{
+    background-color: indigo;
+    
+}
+30%{
+    background-color: violet
+}
+35%{
+    background-color: violet;
+ 
+    }
+40%{
+    background-color: indigo;
+}
+45%{
+    background-color: blue;
+}
+50%{ 
+background-color: green;
+
+}
+55%{
+    background-color: yellow;
+    
+}
+60%{
+    background-color: orange;
+    
+}
+65%{
+    background-color: red
+}
+
+
+  
+   
+  
